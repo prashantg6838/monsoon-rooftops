@@ -1,0 +1,265 @@
+{
+ "id": "test_leaves",
+ "world": 0,
+ "name": "Test: Leaves - tap blocked pipes",
+ "grid": {
+  "width": 7,
+  "depth": 5,
+  "maxHeight": 1
+ },
+ "cells": [
+  {
+   "x": 0,
+   "z": 0,
+   "h": 0,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 0,
+   "z": 1,
+   "h": 0,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 0,
+   "z": 2,
+   "h": 0,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 0,
+   "z": 3,
+   "h": 0,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 0,
+   "z": 4,
+   "h": 0,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 1,
+   "z": 0,
+   "h": 0,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 1,
+   "z": 1,
+   "h": 0,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 1,
+   "z": 2,
+   "h": 0,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 1,
+   "z": 3,
+   "h": 0,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 1,
+   "z": 4,
+   "h": 0,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 2,
+   "z": 0,
+   "h": 0,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 2,
+   "z": 1,
+   "h": 0,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 2,
+   "z": 2,
+   "h": 0,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 2,
+   "z": 3,
+   "h": 0,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 2,
+   "z": 4,
+   "h": 0,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 3,
+   "z": 0,
+   "h": 0,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 3,
+   "z": 1,
+   "h": 0,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 3,
+   "z": 2,
+   "h": 0,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 3,
+   "z": 3,
+   "h": 0,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 3,
+   "z": 4,
+   "h": 0,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 4,
+   "z": 0,
+   "h": 0,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 4,
+   "z": 1,
+   "h": 0,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 4,
+   "z": 2,
+   "h": 0,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 4,
+   "z": 3,
+   "h": 0,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 4,
+   "z": 4,
+   "h": 0,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 5,
+   "z": 0,
+   "h": 0,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 5,
+   "z": 1,
+   "h": 0,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 5,
+   "z": 2,
+   "h": 0,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 5,
+   "z": 3,
+   "h": 0,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 5,
+   "z": 4,
+   "h": 0,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 6,
+   "z": 0,
+   "h": 0,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 6,
+   "z": 1,
+   "h": 0,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 6,
+   "z": 2,
+   "h": 0,
+   "surface": "ground"
+  },
+  {
+   "x": 6,
+   "z": 3,
+   "h": 0,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 6,
+   "z": 4,
+   "h": 0,
+   "surface": "flat_roof"
+  }
+ ],
+ "fixedObjects": [
+  {
+   "type": "tank",
+   "x": 6,
+   "z": 2,
+   "h": 0,
+   "capacityL": 600
+  }
+ ],
+ "availableParts": [
+  {
+   "type": "gutter_straight",
+   "count": 6
+  },
+  {
+   "type": "elbow_90",
+   "count": 2
+  }
+ ],
+ "waves": [
+  {
+   "durationSec": 15,
+   "intensity": 0.5,
+   "label": "Drizzle",
+   "hazards": []
+  },
+  {
+   "durationSec": 40,
+   "intensity": 0.8,
+   "label": "Leaf Storm",
+   "hazards": [
+    "leaves"
+   ]
+  }
+ ],
+ "neighbourRequests": [],
+ "goals": {
+  "litresTarget": 300,
+  "star2": 200,
+  "star3": 300,
+  "maxFloodedCells": 1
+ },
+ "sandbags": 0
+}

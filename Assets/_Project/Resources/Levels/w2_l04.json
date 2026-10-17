@@ -1,0 +1,352 @@
+{
+ "id": "w2_l04",
+ "world": 2,
+ "name": "The Courtyard",
+ "grid": {
+  "width": 7,
+  "depth": 6,
+  "maxHeight": 4
+ },
+ "cells": [
+  {
+   "x": 0,
+   "z": 0,
+   "h": 1,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 0,
+   "z": 1,
+   "h": 1,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 0,
+   "z": 2,
+   "h": 1,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 0,
+   "z": 3,
+   "h": 1,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 0,
+   "z": 4,
+   "h": 1,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 0,
+   "z": 5,
+   "h": 1,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 1,
+   "z": 0,
+   "h": 1,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 1,
+   "z": 1,
+   "h": 1,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 1,
+   "z": 2,
+   "h": 1,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 1,
+   "z": 3,
+   "h": 1,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 1,
+   "z": 4,
+   "h": 1,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 1,
+   "z": 5,
+   "h": 1,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 2,
+   "z": 0,
+   "h": 1,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 2,
+   "z": 1,
+   "h": 1,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 2,
+   "z": 2,
+   "h": 0,
+   "surface": "ground"
+  },
+  {
+   "x": 2,
+   "z": 3,
+   "h": 0,
+   "surface": "ground"
+  },
+  {
+   "x": 2,
+   "z": 4,
+   "h": 1,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 2,
+   "z": 5,
+   "h": 1,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 3,
+   "z": 0,
+   "h": 1,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 3,
+   "z": 1,
+   "h": 1,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 3,
+   "z": 2,
+   "h": 0,
+   "surface": "ground"
+  },
+  {
+   "x": 3,
+   "z": 3,
+   "h": 0,
+   "surface": "ground"
+  },
+  {
+   "x": 3,
+   "z": 4,
+   "h": 1,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 3,
+   "z": 5,
+   "h": 1,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 4,
+   "z": 0,
+   "h": 1,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 4,
+   "z": 1,
+   "h": 1,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 4,
+   "z": 2,
+   "h": 0,
+   "surface": "ground"
+  },
+  {
+   "x": 4,
+   "z": 3,
+   "h": 0,
+   "surface": "ground"
+  },
+  {
+   "x": 4,
+   "z": 4,
+   "h": 1,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 4,
+   "z": 5,
+   "h": 1,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 5,
+   "z": 0,
+   "h": 1,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 5,
+   "z": 1,
+   "h": 1,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 5,
+   "z": 2,
+   "h": 1,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 5,
+   "z": 3,
+   "h": 1,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 5,
+   "z": 4,
+   "h": 1,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 5,
+   "z": 5,
+   "h": 1,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 6,
+   "z": 0,
+   "h": 1,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 6,
+   "z": 1,
+   "h": 1,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 6,
+   "z": 2,
+   "h": 1,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 6,
+   "z": 3,
+   "h": 1,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 6,
+   "z": 4,
+   "h": 1,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 6,
+   "z": 5,
+   "h": 1,
+   "surface": "flat_roof"
+  }
+ ],
+ "fixedObjects": [
+  {
+   "type": "tank",
+   "x": 3,
+   "z": 2,
+   "h": 0,
+   "capacityL": 2000
+  }
+ ],
+ "availableParts": [
+  {
+   "type": "gutter_straight",
+   "count": 5
+  },
+  {
+   "type": "elbow_90",
+   "count": 2
+  },
+  {
+   "type": "downpipe",
+   "count": 2
+  },
+  {
+   "type": "t_junction",
+   "count": 1
+  }
+ ],
+ "waves": [
+  {
+   "durationSec": 25,
+   "intensity": 0.6,
+   "label": "Steady Rain",
+   "hazards": []
+  },
+  {
+   "durationSec": 30,
+   "intensity": 0.9,
+   "label": "Downpour",
+   "hazards": []
+  }
+ ],
+ "neighbourRequests": [],
+ "goals": {
+  "litresTarget": 1020,
+  "star2": 790,
+  "star3": 1020,
+  "maxFloodedCells": 1
+ },
+ "sandbags": 0,
+ "solution": [
+  {
+   "type": "gutter_straight",
+   "x": 0,
+   "z": 5,
+   "rot": 1
+  },
+  {
+   "type": "gutter_straight",
+   "x": 1,
+   "z": 5,
+   "rot": 1
+  },
+  {
+   "type": "gutter_straight",
+   "x": 2,
+   "z": 5,
+   "rot": 1
+  },
+  {
+   "type": "elbow_90",
+   "x": 3,
+   "z": 5,
+   "rot": 2
+  },
+  {
+   "type": "downpipe",
+   "x": 3,
+   "z": 4,
+   "rot": 0
+  },
+  {
+   "type": "gutter_straight",
+   "x": 3,
+   "z": 3,
+   "rot": 0
+  }
+ ],
+ "tutorial": []
+}

@@ -1,0 +1,277 @@
+{
+ "id": "w1_l03",
+ "world": 1,
+ "name": "Down the Wall",
+ "grid": {
+  "width": 7,
+  "depth": 4,
+  "maxHeight": 4
+ },
+ "cells": [
+  {
+   "x": 0,
+   "z": 0,
+   "h": 2,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 0,
+   "z": 1,
+   "h": 2,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 0,
+   "z": 2,
+   "h": 2,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 0,
+   "z": 3,
+   "h": 2,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 1,
+   "z": 0,
+   "h": 2,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 1,
+   "z": 1,
+   "h": 2,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 1,
+   "z": 2,
+   "h": 2,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 1,
+   "z": 3,
+   "h": 2,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 2,
+   "z": 0,
+   "h": 2,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 2,
+   "z": 1,
+   "h": 2,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 2,
+   "z": 2,
+   "h": 2,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 2,
+   "z": 3,
+   "h": 2,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 3,
+   "z": 0,
+   "h": 2,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 3,
+   "z": 1,
+   "h": 2,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 3,
+   "z": 2,
+   "h": 2,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 3,
+   "z": 3,
+   "h": 2,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 4,
+   "z": 0,
+   "h": 0,
+   "surface": "ground"
+  },
+  {
+   "x": 4,
+   "z": 1,
+   "h": 0,
+   "surface": "ground"
+  },
+  {
+   "x": 4,
+   "z": 2,
+   "h": 0,
+   "surface": "ground"
+  },
+  {
+   "x": 4,
+   "z": 3,
+   "h": 0,
+   "surface": "ground"
+  },
+  {
+   "x": 5,
+   "z": 0,
+   "h": 0,
+   "surface": "ground"
+  },
+  {
+   "x": 5,
+   "z": 1,
+   "h": 0,
+   "surface": "ground"
+  },
+  {
+   "x": 5,
+   "z": 2,
+   "h": 0,
+   "surface": "ground"
+  },
+  {
+   "x": 5,
+   "z": 3,
+   "h": 0,
+   "surface": "ground"
+  },
+  {
+   "x": 6,
+   "z": 0,
+   "h": 0,
+   "surface": "ground"
+  },
+  {
+   "x": 6,
+   "z": 1,
+   "h": 0,
+   "surface": "ground"
+  },
+  {
+   "x": 6,
+   "z": 2,
+   "h": 0,
+   "surface": "ground"
+  },
+  {
+   "x": 6,
+   "z": 3,
+   "h": 0,
+   "surface": "ground"
+  }
+ ],
+ "fixedObjects": [
+  {
+   "type": "tank",
+   "x": 5,
+   "z": 1,
+   "h": 0,
+   "capacityL": 2000
+  }
+ ],
+ "availableParts": [
+  {
+   "type": "gutter_straight",
+   "count": 5
+  },
+  {
+   "type": "elbow_90",
+   "count": 1
+  },
+  {
+   "type": "downpipe",
+   "count": 1
+  }
+ ],
+ "waves": [
+  {
+   "durationSec": 20,
+   "intensity": 0.4,
+   "label": "Light Drizzle",
+   "hazards": []
+  },
+  {
+   "durationSec": 30,
+   "intensity": 0.7,
+   "label": "Heavy Rain",
+   "hazards": []
+  }
+ ],
+ "neighbourRequests": [],
+ "goals": {
+  "litresTarget": 780,
+  "star2": 600,
+  "star3": 780,
+  "maxFloodedCells": 1
+ },
+ "sandbags": 0,
+ "solution": [
+  {
+   "type": "gutter_straight",
+   "x": 0,
+   "z": 2,
+   "rot": 1
+  },
+  {
+   "type": "gutter_straight",
+   "x": 1,
+   "z": 2,
+   "rot": 1
+  },
+  {
+   "type": "gutter_straight",
+   "x": 2,
+   "z": 2,
+   "rot": 1
+  },
+  {
+   "type": "downpipe",
+   "x": 3,
+   "z": 2,
+   "rot": 3
+  },
+  {
+   "type": "gutter_straight",
+   "x": 4,
+   "z": 2,
+   "rot": 1
+  },
+  {
+   "type": "elbow_90",
+   "x": 5,
+   "z": 2,
+   "rot": 2
+  }
+ ],
+ "tutorial": [
+  {
+   "text": "Water can't jump off a roof. Use a Downpipe on the roof edge",
+   "point": "tray:downpipe",
+   "cell": [],
+   "advance": "place"
+  },
+  {
+   "text": "Its brown end drops water to the ground. Turn it to face away from the roof",
+   "point": "none",
+   "cell": [],
+   "advance": "rotate"
+  }
+ ]
+}

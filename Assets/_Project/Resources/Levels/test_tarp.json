@@ -1,0 +1,261 @@
+{
+ "id": "test_tarp",
+ "world": 0,
+ "name": "Test: Tarp catches a wide area",
+ "grid": {
+  "width": 7,
+  "depth": 5,
+  "maxHeight": 1
+ },
+ "cells": [
+  {
+   "x": 0,
+   "z": 0,
+   "h": 0,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 0,
+   "z": 1,
+   "h": 0,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 0,
+   "z": 2,
+   "h": 0,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 0,
+   "z": 3,
+   "h": 0,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 0,
+   "z": 4,
+   "h": 0,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 1,
+   "z": 0,
+   "h": 0,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 1,
+   "z": 1,
+   "h": 0,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 1,
+   "z": 2,
+   "h": 0,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 1,
+   "z": 3,
+   "h": 0,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 1,
+   "z": 4,
+   "h": 0,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 2,
+   "z": 0,
+   "h": 0,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 2,
+   "z": 1,
+   "h": 0,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 2,
+   "z": 2,
+   "h": 0,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 2,
+   "z": 3,
+   "h": 0,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 2,
+   "z": 4,
+   "h": 0,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 3,
+   "z": 0,
+   "h": 0,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 3,
+   "z": 1,
+   "h": 0,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 3,
+   "z": 2,
+   "h": 0,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 3,
+   "z": 3,
+   "h": 0,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 3,
+   "z": 4,
+   "h": 0,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 4,
+   "z": 0,
+   "h": 0,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 4,
+   "z": 1,
+   "h": 0,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 4,
+   "z": 2,
+   "h": 0,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 4,
+   "z": 3,
+   "h": 0,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 4,
+   "z": 4,
+   "h": 0,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 5,
+   "z": 0,
+   "h": 0,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 5,
+   "z": 1,
+   "h": 0,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 5,
+   "z": 2,
+   "h": 0,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 5,
+   "z": 3,
+   "h": 0,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 5,
+   "z": 4,
+   "h": 0,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 6,
+   "z": 0,
+   "h": 0,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 6,
+   "z": 1,
+   "h": 0,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 6,
+   "z": 2,
+   "h": 0,
+   "surface": "ground"
+  },
+  {
+   "x": 6,
+   "z": 3,
+   "h": 0,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 6,
+   "z": 4,
+   "h": 0,
+   "surface": "flat_roof"
+  }
+ ],
+ "fixedObjects": [
+  {
+   "type": "tank",
+   "x": 6,
+   "z": 2,
+   "h": 0,
+   "capacityL": 600
+  }
+ ],
+ "availableParts": [
+  {
+   "type": "tarp",
+   "count": 1
+  },
+  {
+   "type": "gutter_straight",
+   "count": 5
+  },
+  {
+   "type": "elbow_90",
+   "count": 2
+  }
+ ],
+ "waves": [
+  {
+   "durationSec": 30,
+   "intensity": 0.6,
+   "label": "Steady Rain",
+   "hazards": []
+  }
+ ],
+ "neighbourRequests": [],
+ "goals": {
+  "litresTarget": 300,
+  "star2": 200,
+  "star3": 300,
+  "maxFloodedCells": 1
+ },
+ "sandbags": 0
+}

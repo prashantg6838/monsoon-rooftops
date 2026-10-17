@@ -1,0 +1,356 @@
+{
+ "id": "w2_l06",
+ "world": 2,
+ "name": "Leaf Season",
+ "grid": {
+  "width": 8,
+  "depth": 5,
+  "maxHeight": 4
+ },
+ "cells": [
+  {
+   "x": 0,
+   "z": 0,
+   "h": 2,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 0,
+   "z": 1,
+   "h": 2,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 0,
+   "z": 2,
+   "h": 2,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 0,
+   "z": 3,
+   "h": 2,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 0,
+   "z": 4,
+   "h": 2,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 1,
+   "z": 0,
+   "h": 2,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 1,
+   "z": 1,
+   "h": 2,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 1,
+   "z": 2,
+   "h": 2,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 1,
+   "z": 3,
+   "h": 2,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 1,
+   "z": 4,
+   "h": 2,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 2,
+   "z": 0,
+   "h": 2,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 2,
+   "z": 1,
+   "h": 2,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 2,
+   "z": 2,
+   "h": 2,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 2,
+   "z": 3,
+   "h": 2,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 2,
+   "z": 4,
+   "h": 2,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 3,
+   "z": 0,
+   "h": 2,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 3,
+   "z": 1,
+   "h": 2,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 3,
+   "z": 2,
+   "h": 2,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 3,
+   "z": 3,
+   "h": 2,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 3,
+   "z": 4,
+   "h": 2,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 4,
+   "z": 0,
+   "h": 2,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 4,
+   "z": 1,
+   "h": 2,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 4,
+   "z": 2,
+   "h": 2,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 4,
+   "z": 3,
+   "h": 2,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 4,
+   "z": 4,
+   "h": 2,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 5,
+   "z": 0,
+   "h": 0,
+   "surface": "ground"
+  },
+  {
+   "x": 5,
+   "z": 1,
+   "h": 0,
+   "surface": "ground"
+  },
+  {
+   "x": 5,
+   "z": 2,
+   "h": 0,
+   "surface": "ground"
+  },
+  {
+   "x": 5,
+   "z": 3,
+   "h": 0,
+   "surface": "ground"
+  },
+  {
+   "x": 5,
+   "z": 4,
+   "h": 0,
+   "surface": "ground"
+  },
+  {
+   "x": 6,
+   "z": 0,
+   "h": 0,
+   "surface": "ground"
+  },
+  {
+   "x": 6,
+   "z": 1,
+   "h": 0,
+   "surface": "ground"
+  },
+  {
+   "x": 6,
+   "z": 2,
+   "h": 0,
+   "surface": "ground"
+  },
+  {
+   "x": 6,
+   "z": 3,
+   "h": 0,
+   "surface": "ground"
+  },
+  {
+   "x": 6,
+   "z": 4,
+   "h": 0,
+   "surface": "ground"
+  },
+  {
+   "x": 7,
+   "z": 0,
+   "h": 0,
+   "surface": "ground"
+  },
+  {
+   "x": 7,
+   "z": 1,
+   "h": 0,
+   "surface": "ground"
+  },
+  {
+   "x": 7,
+   "z": 2,
+   "h": 0,
+   "surface": "ground"
+  },
+  {
+   "x": 7,
+   "z": 3,
+   "h": 0,
+   "surface": "ground"
+  },
+  {
+   "x": 7,
+   "z": 4,
+   "h": 0,
+   "surface": "ground"
+  }
+ ],
+ "fixedObjects": [
+  {
+   "type": "tank",
+   "x": 7,
+   "z": 2,
+   "h": 0,
+   "capacityL": 2000
+  }
+ ],
+ "availableParts": [
+  {
+   "type": "gutter_straight",
+   "count": 7
+  },
+  {
+   "type": "elbow_90",
+   "count": 2
+  },
+  {
+   "type": "downpipe",
+   "count": 1
+  },
+  {
+   "type": "tarp",
+   "count": 1
+  }
+ ],
+ "waves": [
+  {
+   "durationSec": 15,
+   "intensity": 0.5,
+   "label": "Drizzle",
+   "hazards": []
+  },
+  {
+   "durationSec": 30,
+   "intensity": 0.8,
+   "label": "Leaf Storm",
+   "hazards": [
+    "leaves"
+   ]
+  },
+  {
+   "durationSec": 20,
+   "intensity": 1.0,
+   "label": "Downpour",
+   "hazards": [
+    "leaves"
+   ]
+  }
+ ],
+ "neighbourRequests": [],
+ "goals": {
+  "litresTarget": 1680,
+  "star2": 1310,
+  "star3": 1680,
+  "maxFloodedCells": 1
+ },
+ "sandbags": 2,
+ "solution": [
+  {
+   "type": "gutter_straight",
+   "x": 0,
+   "z": 2,
+   "rot": 1
+  },
+  {
+   "type": "gutter_straight",
+   "x": 1,
+   "z": 2,
+   "rot": 1
+  },
+  {
+   "type": "gutter_straight",
+   "x": 2,
+   "z": 2,
+   "rot": 1
+  },
+  {
+   "type": "gutter_straight",
+   "x": 3,
+   "z": 2,
+   "rot": 1
+  },
+  {
+   "type": "downpipe",
+   "x": 4,
+   "z": 2,
+   "rot": 3
+  },
+  {
+   "type": "gutter_straight",
+   "x": 5,
+   "z": 2,
+   "rot": 1
+  },
+  {
+   "type": "gutter_straight",
+   "x": 6,
+   "z": 2,
+   "rot": 1
+  }
+ ],
+ "tutorial": []
+}

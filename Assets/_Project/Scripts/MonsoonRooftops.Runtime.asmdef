@@ -1,0 +1,9 @@
+{
+  "name": "MonsoonRooftops.Runtime",
+  "rootNamespace": "MonsoonRooftops",
+  "references": ["Unity.InputSystem", "UnityEngine.UI"],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "autoReferenced": true
+}

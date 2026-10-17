@@ -1,0 +1,32 @@
+{
+ "worlds": [
+  {
+   "name": "The Outskirts",
+   "levels": [
+    "w1_l01",
+    "w1_l02",
+    "w1_l03",
+    "w1_l04",
+    "w1_l05"
+   ]
+  },
+  {
+   "name": "The Crowded Courtyard",
+   "levels": [
+    "w2_l01",
+    "w2_l02",
+    "w2_l03",
+    "w2_l04",
+    "w2_l05",
+    "w2_l06",
+    "w2_l07"
+   ]
+  }
+ ],
+ "testLevels": [
+  "test_tarp",
+  "test_leaves",
+  "test_valve",
+  "test_sandbag"
+ ]
+}

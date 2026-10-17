@@ -1,0 +1,8 @@
+{
+  "name": "MonsoonRooftops.Editor",
+  "rootNamespace": "MonsoonRooftops.EditorTools",
+  "references": ["MonsoonRooftops.Runtime"],
+  "includePlatforms": ["Editor"],
+  "excludePlatforms": [],
+  "autoReferenced": true
+}

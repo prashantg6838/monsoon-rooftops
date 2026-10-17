@@ -1,0 +1,254 @@
+{
+ "id": "w2_l02",
+ "world": 2,
+ "name": "Split the Flow",
+ "grid": {
+  "width": 5,
+  "depth": 5,
+  "maxHeight": 4
+ },
+ "cells": [
+  {
+   "x": 0,
+   "z": 0,
+   "h": 1,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 0,
+   "z": 1,
+   "h": 1,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 0,
+   "z": 2,
+   "h": 1,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 0,
+   "z": 3,
+   "h": 1,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 0,
+   "z": 4,
+   "h": 1,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 1,
+   "z": 0,
+   "h": 1,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 1,
+   "z": 1,
+   "h": 1,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 1,
+   "z": 2,
+   "h": 1,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 1,
+   "z": 3,
+   "h": 1,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 1,
+   "z": 4,
+   "h": 1,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 2,
+   "z": 0,
+   "h": 1,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 2,
+   "z": 1,
+   "h": 1,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 2,
+   "z": 2,
+   "h": 1,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 2,
+   "z": 3,
+   "h": 1,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 2,
+   "z": 4,
+   "h": 1,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 3,
+   "z": 0,
+   "h": 1,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 3,
+   "z": 1,
+   "h": 1,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 3,
+   "z": 2,
+   "h": 1,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 3,
+   "z": 3,
+   "h": 1,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 3,
+   "z": 4,
+   "h": 1,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 4,
+   "z": 0,
+   "h": 1,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 4,
+   "z": 1,
+   "h": 1,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 4,
+   "z": 2,
+   "h": 1,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 4,
+   "z": 3,
+   "h": 1,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 4,
+   "z": 4,
+   "h": 1,
+   "surface": "flat_roof"
+  }
+ ],
+ "fixedObjects": [
+  {
+   "type": "tank",
+   "x": 1,
+   "z": 4,
+   "h": 1,
+   "capacityL": 300
+  },
+  {
+   "type": "tank",
+   "x": 3,
+   "z": 4,
+   "h": 1,
+   "capacityL": 300
+  }
+ ],
+ "availableParts": [
+  {
+   "type": "gutter_straight",
+   "count": 5
+  },
+  {
+   "type": "t_junction",
+   "count": 1
+  },
+  {
+   "type": "elbow_90",
+   "count": 2
+  }
+ ],
+ "waves": [
+  {
+   "durationSec": 25,
+   "intensity": 0.5,
+   "label": "Steady Rain",
+   "hazards": []
+  },
+  {
+   "durationSec": 25,
+   "intensity": 0.8,
+   "label": "Heavy Rain",
+   "hazards": []
+  }
+ ],
+ "neighbourRequests": [],
+ "goals": {
+  "litresTarget": 540,
+  "star2": 420,
+  "star3": 540,
+  "maxFloodedCells": 1
+ },
+ "sandbags": 0,
+ "solution": [
+  {
+   "type": "gutter_straight",
+   "x": 2,
+   "z": 0,
+   "rot": 0
+  },
+  {
+   "type": "gutter_straight",
+   "x": 2,
+   "z": 1,
+   "rot": 0
+  },
+  {
+   "type": "gutter_straight",
+   "x": 2,
+   "z": 2,
+   "rot": 0
+  },
+  {
+   "type": "gutter_straight",
+   "x": 2,
+   "z": 3,
+   "rot": 0
+  },
+  {
+   "type": "t_junction",
+   "x": 2,
+   "z": 4,
+   "rot": 0
+  }
+ ],
+ "tutorial": [
+  {
+   "text": "Each tank holds 300 L. The T-Junction splits water between two sides",
+   "point": "tray:t_junction",
+   "cell": [],
+   "advance": "place"
+  }
+ ]
+}

@@ -1,0 +1,215 @@
+{
+ "id": "w1_l01",
+ "world": 1,
+ "name": "The Basics",
+ "grid": {
+  "width": 6,
+  "depth": 3,
+  "maxHeight": 4
+ },
+ "cells": [
+  {
+   "x": 0,
+   "z": 0,
+   "h": 1,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 0,
+   "z": 1,
+   "h": 1,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 0,
+   "z": 2,
+   "h": 1,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 1,
+   "z": 0,
+   "h": 1,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 1,
+   "z": 1,
+   "h": 1,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 1,
+   "z": 2,
+   "h": 1,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 2,
+   "z": 0,
+   "h": 1,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 2,
+   "z": 1,
+   "h": 1,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 2,
+   "z": 2,
+   "h": 1,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 3,
+   "z": 0,
+   "h": 1,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 3,
+   "z": 1,
+   "h": 1,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 3,
+   "z": 2,
+   "h": 1,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 4,
+   "z": 0,
+   "h": 1,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 4,
+   "z": 1,
+   "h": 1,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 4,
+   "z": 2,
+   "h": 1,
+   "surface": "flat_roof"
+  },
+  {
+   "x": 5,
+   "z": 1,
+   "h": 1,
+   "surface": "ground"
+  }
+ ],
+ "fixedObjects": [
+  {
+   "type": "tank",
+   "x": 5,
+   "z": 1,
+   "h": 1,
+   "capacityL": 2000
+  }
+ ],
+ "availableParts": [
+  {
+   "type": "gutter_straight",
+   "count": 5
+  }
+ ],
+ "waves": [
+  {
+   "durationSec": 20,
+   "intensity": 0.4,
+   "label": "Light Drizzle",
+   "hazards": []
+  },
+  {
+   "durationSec": 25,
+   "intensity": 0.6,
+   "label": "Steady Rain",
+   "hazards": []
+  }
+ ],
+ "neighbourRequests": [],
+ "goals": {
+  "litresTarget": 800,
+  "star2": 620,
+  "star3": 800,
+  "maxFloodedCells": 1
+ },
+ "sandbags": 0,
+ "solution": [
+  {
+   "type": "gutter_straight",
+   "x": 1,
+   "z": 1,
+   "rot": 1
+  },
+  {
+   "type": "gutter_straight",
+   "x": 2,
+   "z": 1,
+   "rot": 1
+  },
+  {
+   "type": "gutter_straight",
+   "x": 3,
+   "z": 1,
+   "rot": 1
+  },
+  {
+   "type": "gutter_straight",
+   "x": 4,
+   "z": 1,
+   "rot": 1
+  }
+ ],
+ "tutorial": [
+  {
+   "text": "Tap the Straight Gutter in the tray",
+   "point": "tray:gutter_straight",
+   "cell": [],
+   "advance": "arm"
+  },
+  {
+   "text": "Now tap the roof next to the tank",
+   "point": "cell",
+   "cell": [
+    4,
+    1
+   ],
+   "advance": "place"
+  },
+  {
+   "text": "Tap the gutter to turn it towards the tank",
+   "point": "cell",
+   "cell": [
+    4,
+    1
+   ],
+   "advance": "rotate"
+  },
+  {
+   "text": "Add more gutters in a line. Green dots = connected",
+   "point": "none",
+   "cell": [],
+   "advance": "place"
+  },
+  {
+   "text": "Tap Test Drizzle to watch the rain flow (free)",
+   "point": "button:drizzle",
+   "cell": [],
+   "advance": "drizzle"
+  },
+  {
+   "text": "Happy? Tap Start Wave",
+   "point": "button:start",
+   "cell": [],
+   "advance": "start"
+  }
+ ]
+}
